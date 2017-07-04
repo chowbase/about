@@ -13,6 +13,10 @@ section {
 	color: #ffffff;
 }
 
+section h2 {
+	color: #222222;
+}
+
 h1{
 	font-size: 28px;
 	text-align: center;
@@ -33,6 +37,14 @@ p{
 	font-size: 15px;
 }
 
+.chowbase {
+	font-family: Lato;
+	font-size: 27px;
+	font-weight: 900;
+	font-style: italic;
+	color: #ffffff;
+}
+
 #intro{
 	background-image: linear-gradient(to bottom, #377ead, #8e2dba);
 }
@@ -43,6 +55,11 @@ p{
 
 #intro img {
 	margin-top: 60px;
+}
+
+#features {
+	background-color: #fafafa;
+	color: #a2a2a2;
 }
 
 .entry-title {
