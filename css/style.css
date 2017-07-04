@@ -4,8 +4,8 @@ html,body {
 }
 
 body {
-   background-color: #3A7AAD;
    font-family: 'Lato', sans-serif;
+   font-size: 14px;
 }
 
 section {
@@ -14,31 +14,48 @@ section {
 }
 
 h1{
-	font-size: 25px;
+	font-size: 28px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.2;
 }
 
 h2{
-	font-size: 9px;
+	font-size: 20px;
 	text-align: center;
 	font-family: Lato;
-	line-height: 1.56;
+	/*line-height: 1.56;*/
     color: #ffffff;
-    line-height: 1.56;
 }
 
 #intro{
 	background-image: linear-gradient(to bottom, #377ead, #8e2dba);
-	padding: 0 152px;
 }
+
+#intro p {
+	margin-bottom: 32px;
+}
+
+#intro img {
+	margin-top: 60px;
+}
+
+.entry-title {
+	max-width: 395px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.entry-title h1 {
+	font-weight: normal;
+}
+
 .cta-btn{
 	background-color: #0c667b;
-	border-radius: 20%;
+	border-radius: 20px;
 	color: #ffffff;
-	padding: 6px 24px;
-	text-align: center;
+	padding: 10px 30px;
+	margin-top: 32px;
 }
 
 /*BOOTSTRAP OVERRIDES*/
