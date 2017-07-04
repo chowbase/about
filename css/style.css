@@ -1,0 +1,5 @@
+body {
+	width: 100%;
+	background: #F6FDFF url(../img/coloured_logo.png) no-repeat center center;
+	background-size: cover;
+}
