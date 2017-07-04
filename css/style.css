@@ -1,5 +1,6 @@
 body {
 	width: 100%;
+	height: 100vh;
 	background: #F6FDFF url(../img/coloured_logo.png) no-repeat center center;
-	background-size: cover;
+	background-size: contain;
 }
