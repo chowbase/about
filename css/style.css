@@ -49,7 +49,9 @@ p{
 }
 
 #intro{
-	background-image: linear-gradient(to bottom, #377ead, #8e2dba);
+	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
+	background-repeat: none;
+	background-position: center bottom
 }
 
 #intro p {
@@ -89,6 +91,10 @@ nav.navbar.navbar-default {
     background-color: transparent;
 }
 
+.container {
+	padding: 0 120px;
+}
+
 
 .benefits-desc{
 	font-size: 15px;
@@ -106,6 +112,7 @@ nav.navbar.navbar-default {
 
 #benefits{
 	background-color: #ffffff;
+	padding-bottom: 0;
 }
 
 /*TESTIMONIALS*/
@@ -124,10 +131,19 @@ nav.navbar.navbar-default {
     font-size: 12px;
 }
 
+.icons {
+	margin-top: 32px;
+}
+
 #testimonials img {
 	max-width: 250px;
 	display: block;
 	margin: 0 auto;
+}
+
+.testimonials-img {
+	background: url(../img/icons/group.svg) no-repeat center center;
+	background-size: cover;
 }
 
 /*CALL TO ACTION(CTA)*/
