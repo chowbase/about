@@ -67,6 +67,42 @@ a.navbar-brand.chowbase {
 	color: #ffffff;
 }
 
+.box {
+  padding:  10% 20px 5%; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+  
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.box > .inner-box {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.left-box {
+  padding:  5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+  
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.left-box > .inner-box {
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
 .entry-title {
 	max-width: 700px;
 	margin: 0 auto;
@@ -90,6 +126,7 @@ img.laptop {
 #features {
 	background-color: #fafafa;
 	color: #a2a2a2;
+	margin-top: -20px;
 }
 
 
@@ -153,6 +190,7 @@ nav.navbar.navbar-default {
 #benefits{
 	background-color: #ffffff;
 	padding-bottom: 0;
+	margin-top: -200px;
 }
 
 /*TESTIMONIALS SECTION*/
