@@ -18,7 +18,7 @@ section h2 {
 }
 
 h1{
-	font-size: 28px;
+	font-size: 40px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.2;
@@ -40,6 +40,12 @@ p{
 	font-size: 15px;
 }
 
+header {
+	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
 .logo {
 	max-width: 50px;
 	display: inline-block;
@@ -47,34 +53,18 @@ p{
 }
 
 .chowbase {
-	font-family: Lato;
+	font-family: Lato, sans-serif;
 	font-size: 27px;
 	font-weight: 900;
 	font-style: italic;
+}
+
+a.navbar-brand.chowbase {
 	color: #ffffff;
 }
 
-#intro{
-	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
-	background-repeat: no-repeat;
-	background-position: center bottom
-}
-
-#intro p {
-	margin-bottom: 32px;
-}
-
-#intro img {
-	margin-top: 60px;
-}
-
-#features {
-	background-color: #fafafa;
-	color: #a2a2a2;
-}
-
 .entry-title {
-	max-width: 395px;
+	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -82,6 +72,22 @@ p{
 .entry-title h1 {
 	font-weight: normal;
 }
+
+.entry-title p {
+	max-width: 450px;
+    margin: 10px auto 32px;
+}
+
+img.laptop {
+	margin-top: 60px;
+	display: inline-block;
+}
+
+#features {
+	background-color: #fafafa;
+	color: #a2a2a2;
+}
+
 
 .cta-btn{
 	background-color: #0c667b;
@@ -94,6 +100,23 @@ p{
 /*BOOTSTRAP OVERRIDES*/
 nav.navbar.navbar-default {
     margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+@media (min-width: 768px){
+	.navbar-nav {
+	    float: right;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    font-weight: bold;
     background-color: transparent;
 }
 
