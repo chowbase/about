@@ -36,6 +36,10 @@ p{
 	font-size: 15px;
 }
 
+li {
+	list-style-type: circle;
+}
+
 .chowbase {
 	font-family: Lato;
 	font-size: 27px;
@@ -100,9 +104,6 @@ nav.navbar.navbar-default {
 	color: #a2a2a2;
 }
 
-.benefits-desc li{
-	list-style-type: circle;
-}
 
 .mobile-img{
 	background-image: url('../img/mobile.png');
@@ -196,11 +197,25 @@ footer{
 	color: #a3d4f7;
 }
  
-li{
+footer li{
 	list-style-type: none;
 	font-size: 15px;
 }
 
 footer a {
 	color: #ffffff;
+}
+
+
+.footer-links{
+	border-right: solid 0.2px #377ead;
+	   
+}
+
+.footer-links p {
+	padding-left: 40px;
+}
+
+.footer-links:last-child {
+	border-right: none;
 }
