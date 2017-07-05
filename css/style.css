@@ -13,8 +13,12 @@ section {
 	color: #ffffff;
 }
 
+section h2 {
+	color: #b13ee5;
+}
+
 h1{
-	font-size: 28px;
+	font-size: 40px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.2;
@@ -23,7 +27,7 @@ h1{
 h2{
 	font-size: 10px;
 	line-height: 1.57;
-	color: #b13ee5;
+	color: #222222;
 }
 
 h3{
@@ -36,39 +40,35 @@ p{
 	font-size: 15px;
 }
 
+header {
+	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.logo {
+	max-width: 50px;
+	display: inline-block;
+	float: left;
+}
+
 li {
 	list-style-type: circle;
 }
 
 .chowbase {
-	font-family: Lato;
+	font-family: Lato, sans-serif;
 	font-size: 27px;
 	font-weight: 900;
 	font-style: italic;
+}
+
+a.navbar-brand.chowbase {
 	color: #ffffff;
 }
 
-#intro{
-	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
-	background-repeat: none;
-	background-position: center bottom
-}
-
-#intro p {
-	margin-bottom: 32px;
-}
-
-#intro img {
-	margin-top: 60px;
-}
-
-#features {
-	background-color: #fafafa;
-	color: #a2a2a2;
-}
-
 .entry-title {
-	max-width: 395px;
+	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -76,6 +76,22 @@ li {
 .entry-title h1 {
 	font-weight: normal;
 }
+
+.entry-title p {
+	max-width: 450px;
+    margin: 10px auto 32px;
+}
+
+img.laptop {
+	margin-top: 60px;
+	display: inline-block;
+}
+
+#features {
+	background-color: #fafafa;
+	color: #a2a2a2;
+}
+
 
 .cta-btn{
 	background-color: #0c667b;
@@ -89,12 +105,33 @@ li {
 nav.navbar.navbar-default {
     margin: 0;
     background-color: transparent;
+    border: none;
+}
+
+@media (min-width: 768px){
+	.navbar-nav {
+	    float: right;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 /*BENEFITS SECTION*/
 
 .container {
 	padding: 0 120px;
+}
+
+.row {
+	padding: 15px 0;
 }
 
 
