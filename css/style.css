@@ -87,6 +87,8 @@ nav.navbar.navbar-default {
     background-color: transparent;
 }
 
+/*BENEFITS SECTION*/
+
 .container {
 	padding: 0 120px;
 }
@@ -115,7 +117,7 @@ nav.navbar.navbar-default {
 	padding-bottom: 0;
 }
 
-/*TESTIMONIALS*/
+/*TESTIMONIALS SECTION*/
 #testimonials{
 	background-color: #0C667B;
 	line-height: 1.56;
@@ -146,7 +148,7 @@ nav.navbar.navbar-default {
 	background-size: cover;
 }
 
-/*CALL TO ACTION(CTA)*/
+/*CALL TO ACTION(CTA) SECTION*/
 #cta{
 	background-color: #ffffff;
 	text-align: center;
@@ -197,4 +199,8 @@ footer{
 li{
 	list-style-type: none;
 	font-size: 15px;
+}
+
+footer a {
+	color: #ffffff;
 }
