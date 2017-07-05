@@ -14,7 +14,7 @@ section {
 }
 
 section h2 {
-	color: #222222;
+	color: #b13ee5;
 }
 
 h1{
@@ -27,7 +27,7 @@ h1{
 h2{
 	font-size: 10px;
 	line-height: 1.57;
-	color: #b13ee5;
+	color: #222222;
 }
 
 h3{
@@ -40,6 +40,12 @@ p{
 	font-size: 15px;
 }
 
+.logo {
+	max-width: 50px;
+	display: inline-block;
+	float: left;
+}
+
 .chowbase {
 	font-family: Lato;
 	font-size: 27px;
@@ -50,7 +56,7 @@ p{
 
 #intro{
 	background-image: url(../img/icons/circles.svg), linear-gradient(to bottom, #377ead, #8e2dba);
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-position: center bottom
 }
 
@@ -93,6 +99,10 @@ nav.navbar.navbar-default {
 
 .container {
 	padding: 0 120px;
+}
+
+.row {
+	padding: 15px 0;
 }
 
 
