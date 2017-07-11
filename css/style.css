@@ -163,8 +163,10 @@ nav.navbar.navbar-default {
 
 /*BENEFITS SECTION*/
 
-.container {
-	padding: 0 120px;
+@media (min-width: 768px){
+	.container {
+		padding: 0 120px;
+	}
 }
 
 .row {
@@ -293,4 +295,14 @@ footer a {
 
 .footer-links:last-child {
 	border-right: none;
+}
+
+@media screen and (max-width: 768px){
+	footer{
+		padding: 60px 0;
+	}
+
+	.footer-links {
+    	border-right: none;
+	}
 }
