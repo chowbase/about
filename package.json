@@ -1,0 +1,19 @@
+{
+  "name": "chowbase",
+  "version": "1.0.0",
+  "description": "Chowbase is an inventory management app for restaurants and other businesses in the catering industry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowbase/about.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chowbase/about/issues"
+  },
+  "homepage": "https://github.com/chowbase/about#readme"
+}
