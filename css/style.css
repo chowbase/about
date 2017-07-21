@@ -306,3 +306,7 @@ footer a {
     	border-right: none;
 	}
 }
+
+#mce-error-response {
+	padding-top: 20px;
+}
